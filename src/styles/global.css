@@ -55,28 +55,6 @@ button, li{
 	margin: auto;
 	padding-top:100px;
 }
-/* .myNameIs {
-	overflow: hidden; 
-	border-right: .33em solid transparent; 
-	white-space: nowrap; 
-	letter-spacing: .033em; 
-	animation: 
-	  typing 1.0s steps(40, end),
-	  blink-caret .75s step-end 3;
-	  font-size:40px;
-  }
- 
-  @keyframes typing {
-	from { width: 0 }
-	to { width: 100% }
-  }
-  
-
-  @keyframes blink-caret {
-	from, to { border-color: transparent }
-	50% { border-color: #45F4FF; }
-  }
-*/
 /*wrappers for main content*/
 .mainContentWrapper{
 	display: flex;
@@ -127,7 +105,7 @@ button, li{
 }
 /*resume section*/
 .resume{
-	min-height:500px;
+	min-height:575px;
 	width:720px;
 	max-width:85vw;
 	margin-bottom:10vw;
@@ -176,6 +154,9 @@ button, li{
 }
 .fancyButton:hover{
 	cursor: pointer;
+}
+.workTitle{
+	margin-bottom:10px;
 }
 
 
