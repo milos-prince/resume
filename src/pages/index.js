@@ -1,4 +1,4 @@
-import React from "react"
+import React from "react" 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Resume from "../components/resume"
@@ -7,7 +7,6 @@ import linkedIN from "../images/linkedIn.svg"
 import dl from "../images/download.svg"
 import profile from "../images/t1Compressed.jpg"
 import resume from "../../static/resumeMar2020.pdf"
-
 
 const IndexPage = () => (
   <Layout>
@@ -29,7 +28,7 @@ const IndexPage = () => (
     </div>
     <div className="bioMainContent">
       <div className="photoWrapper"><img src={profile} alt="Profile picture"/></div>
-      <div className="bioWriteup"><p>I'm a (mostly) front end developer born and raised in Saskatchewan, currently living my best life in Montreal, QC. I use a variety of tools to make beautiful and functional things on the internet. I firmly believe that Skyrim belongs to everybody.<br /><br /> I work alongside a fantastic team at <a href="https://www.jonar.com">Jonar</a> that I am very proud to be a part of.</p></div>
+      <div className="bioWriteup"><p>I'm a (mostly) front end developer born and raised in Saskatchewan, currently living my best life in Montreal, QC. I use a variety of tools to make beautiful and functional things on the internet. I firmly believe that Skyrim belongs to everybody.<br /><br /> I work alongside a fantastic team at <a href="https://www.4thwhale.com">4th whale marketing</a> that I am very proud to be a part of.</p></div>
     </div>
   </section>
   <section className="resume">
