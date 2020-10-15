@@ -4,6 +4,7 @@ import SEO from "../components/seo"
 import Resume from "../components/resume"
 import Projects from "../components/projects"
 import linkedIN from "../images/linkedIn.svg"
+import github from "../images/github.svg"
 import dl from "../images/download.svg"
 import profile from "../images/t1Compressed.jpg"
 import resume from "../../static/resumeMar2020.pdf"
@@ -24,7 +25,9 @@ const IndexPage = () => (
   <div className="column">
   <section className="bio">
     <div className="contact">
-      <p className="contactInfo"><a href="mailto:michael@freedomgopher.com">Get in touch</a> or check me out on</p><a href="https://www.linkedin.com/in/michael-pinder-06b05b194/" className="no-ul"><img src={linkedIN} className="my-1" alt="linkedIN logo"/></a>
+      <p className="contactInfo mb-0"><a href="mailto:michael@freedomgopher.com">Get in touch</a> or check me out on</p>
+      <a href="https://www.linkedin.com/in/michael-pinder-06b05b194/" className="no-ul"><img src={linkedIN} className="my-1 mx-1" alt="linkedIN logo"/></a>
+      <a href="https://github.com/milos-prince" className="no-ul"><img src={github} className="my-1 mx-1" alt="github logo"/></a>
     </div>
     <div className="bioMainContent">
       <div className="photoWrapper"><img src={profile} alt="Profile picture"/></div>
