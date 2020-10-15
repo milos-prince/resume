@@ -22,24 +22,9 @@ class Resume extends React.Component {
     switch (this.state.tabIndex){
       case 0:
           return (
-            <div>
-              <div className="toggleRow">
-             <button className="fancyButton activeFancyButton" onClick={() => this.setTab(0)}>Education</button>
-             <button className="fancyButton" onClick={() => this.setTab(1)}>Work History</button>
-             <button className="fancyButton" onClick={() => this.setTab(2)}>Tools</button>
-             </div>
-             <h3>Bachelor of Arts in Philosophy, 2016</h3>
-             <p>University of Saskatchewan. Saskatoon, SK.</p>
-             <h3>Bachelor of Science in Computer Science, 2017</h3>
-             <p>University of Saskatchewan. Saskatoon, SK.</p>
-            </div>
-            
-          );
-      case 1:
-          return (
             <div><div className="toggleRow">
-              <button className="fancyButton" onClick={() => this.setTab(0)}>Education</button>
-             <button className="fancyButton activeFancyButton" onClick={() => this.setTab(1)}>Work History</button>
+              <button className="fancyButton" onClick={() => this.setTab(0)}>Work History</button>
+             <button className="fancyButton activeFancyButton" onClick={() => this.setTab(1)}>Education</button>
              <button className="fancyButton" onClick={() => this.setTab(2)}>Tools</button>
              </div>
              <h4>Front End Developer, 4th Whale Marketing; Montreal, QC – July 2020-Present</h4>
@@ -55,13 +40,28 @@ projects were focused on improving or establishing an online presence for small 
 sized companies.</p>
              
             </div>
-          );
-      default:
+          );  
+      case 1:
           return (
             <div>
               <div className="toggleRow">
-             <button className="fancyButton" onClick={() => this.setTab(0)}>Education</button>
-             <button className="fancyButton" onClick={() => this.setTab(1)}>Work History</button>
+             <button className="fancyButton activeFancyButton" onClick={() => this.setTab(0)}>Work History</button>
+             <button className="fancyButton" onClick={() => this.setTab(1)}>Education</button>
+             <button className="fancyButton" onClick={() => this.setTab(2)}>Tools</button>
+             </div>
+             <h3>Bachelor of Arts in Philosophy, 2016</h3>
+             <p>University of Saskatchewan. Saskatoon, SK.</p>
+             <h3>Bachelor of Science in Computer Science, 2017</h3>
+             <p>University of Saskatchewan. Saskatoon, SK.</p>
+            </div>
+            
+          );   
+      case 2:
+          return (
+            <div>
+              <div className="toggleRow">
+             <button className="fancyButton" onClick={() => this.setTab(0)}>Work History</button>
+             <button className="fancyButton" onClick={() => this.setTab(1)}>Education</button>
              <button className="fancyButton activeFancyButton" onClick={() => this.setTab(2)}>Tools</button>
               </div>
              <h3>Here's a list of tools/technologies I've been using lately:</h3><ul>
