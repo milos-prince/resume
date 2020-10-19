@@ -83,6 +83,7 @@ button, li{
 	display: flex;
 	justify-content: flex-end;
 	font-size:14px;
+	height: 25px;
 	margin-bottom: 20px;
 }
 .contactInfo{
@@ -178,6 +179,9 @@ button, li{
 }
 .quarterBox{
 	height:300px;
+}
+.quarterBox h2{
+	display:inline-block;
 }
 .quarterOverlay{
 	position: absolute;;
