@@ -174,6 +174,7 @@ button, li{
 .projectsContentSection{
 	display: grid;
 	grid-template-columns: repeat(2, 50%);
+	grid-gap:10px;
 }
 .quarterBox{
 	height:300px;
