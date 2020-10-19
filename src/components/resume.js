@@ -28,7 +28,7 @@ class Resume extends React.Component {
              <button className="fancyButton" onClick={() => this.setTab(2)}>Tools</button>
              </div>
              <h4 className="workTitle">Front End Developer, 4th Whale Marketing; Montreal, QC – July 2020-Present</h4>
-            <p>So far in my time with 4th whale, I have been the primary front end developer on their flagship product, a high volume streaming site built in PHP/Symfony.</p>
+            <p>So far in my time with 4th whale, I have been the primary front end developer on their flagship product, a high volume streaming site built using PHP/Symfony.</p>
             <h4 className="workTitle">Web Developer, Jonar; Montreal, QC – March 2019-July 2020</h4>
             <p>Upon moving to Montreal I took a job with Jonar, a software company specializing in
             ERP software. As the primary web developer, I spearheaded the launch of a new product website for ParagonERP, 
