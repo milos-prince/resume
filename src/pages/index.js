@@ -26,8 +26,8 @@ const IndexPage = () => (
   <section className="bio">
     <div className="contact">
       <p className="contactInfo mb-0"><a href="mailto:michael@freedomgopher.com">Get in touch</a> or check me out on</p>
-      <a href="https://www.linkedin.com/in/michael-pinder-06b05b194/" className="no-ul"><img src={linkedIN} className="my-1 mx-1" alt="linkedIN logo"/></a>
-      <a href="https://github.com/milos-prince" className="no-ul"><img src={github} className="my-1 mx-1" alt="github logo"/></a>
+      <div><a href="https://www.linkedin.com/in/michael-pinder-06b05b194/" className="no-ul"><img src={linkedIN} className="my-1 mx-1" alt="linkedIN logo"/></a>
+      <a href="https://github.com/milos-prince" className="no-ul"><img src={github} className="my-1 mx-1" alt="github logo"/></a></div>
     </div>
     <div className="bioMainContent">
       <div className="photoWrapper"><img src={profile} alt="Profile picture"/></div>

@@ -241,6 +241,13 @@ button, li{
 	.bio{
 		margin:auto;
 	}
+	.contact{
+		justify-content: space-around;
+		margin-bottom:30px;
+	}
+	.bioWriteup{
+		width:100%;
+	}
 	.photoWrapper{
 		margin-right:0px;
 	}
@@ -273,12 +280,6 @@ button, li{
 	}
 
 @media screen and (max-width: 600px) {
-	
-
-
-.myNameIs {
-	letter-spacing: .045em; /* Adjust as needed */}
-
 	.toggleRow{
 		display: flex;
 		justify-content: space-around;
@@ -287,5 +288,4 @@ button, li{
 	.fancyButton{
 		font-size:18px;
 	}
-
 }
