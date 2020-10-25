@@ -36,7 +36,7 @@ const IndexPage = () => (
   </section>
   <section className="resume">
     <div className="titleWrapper">
-      <h1>Resume</h1><div className="fancyBox"><a className="no-ul" href={resume} download><div className="d-flex"><p>Download</p><img src={dl} alt="download icon"/></div></a></div>
+      <h1>Resume</h1><div className="fancyBox"><a className="no-ul" href={resume} download><div className="d-flex"><p>Resume</p><img src={dl} alt="download icon"/></div></a></div>
     </div>
     <div className="resumeContentSection">
       <Resume />
@@ -50,7 +50,7 @@ const IndexPage = () => (
     </div>
     <Projects />
   </section>
-  <div className="d-flex lastLine"><p className="my-1">Oh hey you made it to the bottom! </p><a href="mailto:mike.pinder@gmail.com" className="no-ul"><div className="fancyBox2"><p className="cm">Contact me</p></div></a></div>
+  <div className="d-flex lastLine"><p className="my-1">Oh hey you made it to the bottom! </p><a href="mailto:michael@freedomgopher.com" className="no-ul"><div className="fancyBox2"><p className="cm">Contact me</p></div></a></div>
   </div>
   </div>
   </Layout>
