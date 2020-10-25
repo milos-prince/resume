@@ -131,14 +131,14 @@ button, li{
 	border :2px solid #15E7AA;
 	background-color: #011026;
 	height:30px;
-	width:100px;
 	margin-top:10px;
 	padding:0px 10px;
+	overflow:hidden;
 }
 .fancyBox img{
 	margin:3px 10px;
-	width:20px;
-	height:20px;
+	width:15px;
+	height:18px;
 }
 .toggleRow{
 	padding-bottom:15px;
