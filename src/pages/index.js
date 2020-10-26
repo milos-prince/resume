@@ -16,8 +16,8 @@ const IndexPage = () => (
     <section className="hero">
       <div className="heroContentWrapper">
     <div className="introduction">
-    <Typist cursor={{ hideWhenDone: true }}><Typist.Delay ms={500} />Hey,<Typist.Delay ms={1000} /><br /><div className="spacer5"></div>
-    <span className="mb-5">My name is</span></Typist>
+    <Typist cursor={{ hideWhenDone: true, hideWhenDoneDelay: 0 }}><Typist.Delay ms={500} />Hey,<Typist.Delay ms={1700} /><br /><div className="spacer5"></div>
+    My name is</Typist>
     <h1 className="myNameIs">Michael Pinder</h1>
     </div>
   </div>
