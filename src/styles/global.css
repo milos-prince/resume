@@ -55,7 +55,7 @@ button, li{
 	font-family: "zilla slab";
 	opacity: 0;
 	animation-delay: 10s;
-	animation: fadeIn 2s 3s forwards;
+	animation: fadeIn 2s 3.5s forwards;
 }
 .spacer5{
 	padding:15px 0px;
