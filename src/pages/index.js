@@ -8,6 +8,7 @@ import github from "../images/github.svg"
 import dl from "../images/download.svg"
 import profile from "../images/t1Compressed.jpg"
 import resume from "../../static/resumeOct2020.pdf"
+import Typist from 'react-typist';
 
 const IndexPage = () => (
   <Layout>
@@ -15,8 +16,8 @@ const IndexPage = () => (
     <section className="hero">
       <div className="heroContentWrapper">
     <div className="introduction">
-    <h2>Hey,</h2>
-    <h2>My name is</h2>
+    <Typist cursor={{ hideWhenDone: true }}><Typist.Delay ms={500} />Hey,<Typist.Delay ms={1000} /><br /><div className="spacer5"></div>
+    <span className="mb-5">My name is</span></Typist>
     <h1 className="myNameIs">Michael Pinder</h1>
     </div>
   </div>

@@ -52,11 +52,60 @@ button, li{
 }
 .myNameIs{
 	color:#45F4FF;
+	font-family: "zilla slab";
+	opacity: 0;
+	animation-delay: 10s;
+	animation: fadeIn 2s 2.75s forwards;
+}
+.spacer5{
+	padding:10px 0px;
 }
 .introduction{
 	width:300px;
 	margin: auto;
 	padding-top:100px;
+}
+.introduction .Typist{
+	margin-bottom: 1.45rem;
+	font-size:1.6rem;
+	font-family:"Zilla slab";
+	font-weight: bold;
+	color:whitesmoke;
+}
+
+.Typist br{
+	padding:20px 0px;
+}
+.Typist .Cursor {
+	display: inline-block;
+}
+.Typist .Cursor--blinking {
+	opacity: 1;
+	animation: blink 1s linear infinite;
+}
+@keyframes blink {
+	0% {
+		opacity: 1;
+    }
+	50% {
+		opacity: 0;
+    }
+	100% {
+		opacity: 1;
+    }
+}
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+		color:purple;
+		transform: scale(1.04, 1);
+    }
+
+	100% {
+		opacity: 1;
+		color:#45F4FF;
+		transform: scale(1);
+    }
 }
 /*wrappers for main content*/
 .mainContentWrapper{
