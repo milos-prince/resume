@@ -7,8 +7,9 @@ import linkedIN from "../images/linkedIn.svg"
 import github from "../images/github.svg"
 import dl from "../images/download.svg"
 import profile from "../images/t1Compressed.jpg"
-import resume from "../../static/resumeJan2021.pdf"
+import resume from "../../static/resumeOct2021.pdf"
 import Typist from 'react-typist';
+import Style from "../styles/global.css"
 
 const IndexPage = () => (
   <Layout>

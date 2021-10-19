@@ -1,23 +1,12 @@
 import React from "react"
-import { Link } from "gatsby"
-
-import Layout from "./layout"
-import SEO from "./seo"
-import Resume from "./resume"
-import Style from "../styles/global.css"
-
-import linkedIN from "../images/linkedIn.svg"
-import dl from "../images/download.svg"
-import profile from "../images/t1.jpg"
-
 
 const Projects = () => (
 
     <div className="projectsContentSection">
-      <div className="quarterBox bg-paragon"><a href="https://www.paragon-erp.com"><h2>paragon-erp.com</h2></a><p className="hideOnS">As an employee of Jonar, I was responsible for building and launching of a new website promoting Jonar's flagship product, ParagonERP.</p></div>
-      <div className="quarterBox bg-jonar"><a href="https://www.wikett.com"><h2>wikett.com</h2></a><p className="hideOnS">Product site for Wikett by Jonar, built using React & Gatsby</p></div>
+      <div className="quarterBox bg-jonar"><a href="https://vigorous-curie-0ffff9.netlify.app"><h2>devops dashboard</h2></a><p className="hideOnS">Front end for a server maintenence app. Developed during 4th whale's 2019 hackathon/ shipIT day.</p></div>
       <div className="quarterBox bg-evans"><a href="https://www.janeevans.ca"><h2>janeevans.ca</h2></a><p className="hideOnS">Portfolio site built for artist Jane Evans to showcase her work and methods.</p></div>
       <div className="quarterBox bg-ufcw"><a href="https://www.lbplaw.ca"><h2>lbplaw.ca</h2></a><p className="hideOnS">Site for advertising legal services, 2020</p></div>
+      <div className="quarterBox bg-paragon"><a href="https://epic-lamport-845b8e.netlify.app/"><h2>hglaw.ca</h2></a><p className="hideOnS">In progress build: a website for the firm Hnatyshyn Gough. Final version waiting on content revisions!</p></div>
     </div>
 
 )
