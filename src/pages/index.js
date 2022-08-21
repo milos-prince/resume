@@ -52,7 +52,7 @@ const IndexPage = () => (
     </div>
     <Projects />
   </section>
-  <div className="d-flex lastLine"><p className="my-1">Oh hey you made it to the bottom! </p><a href="mailto:michael@freedomgopher.com" className="no-ul"><div className="fancyBox2"><p className="cm">Contact me</p></div></a></div>
+  <div className="d-flex lastLine"><p className="my-1">Oh hey you made it to the bottom! </p><a href="mailto:mike.pinder@gmail.com" className="no-ul"><div className="fancyBox2"><p className="cm">Contact me</p></div></a></div>
   </div>
   </div>
   </Layout>
